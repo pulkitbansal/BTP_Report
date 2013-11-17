@@ -1,0 +1,12 @@
+\documentclass[11pt]{article}
+\usepackage{vaucanson-g}
+\begin{document}
+\begin{VCPicture}{(0,0)(12,10)}
+%3 states
+\State[L0]{(-0.625,6.95)}{Q3} \State[L1]{(3.95,6.925)}{Q4} \FinalState[F]{(11.675,6.95)}{Q5}
+%1 initial-final
+\Initial{Q3}
+%2 transitions
+\EdgeL{Q3}{Q4}{x\epsilon (0,1] , \tau, \{x\}} \EdgeL{Q4}{Q5}{y\epsilon[0,1]  x \epsilon (0,1]  , \tau , \{x\}}
+\end{VCPicture}
+\end{document}
