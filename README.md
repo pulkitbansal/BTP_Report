@@ -1,3 +1,3 @@
 BTP_Report
 ==========
-Compile UI
+Compile UI_Thesis_LaTeX_Template.tex
